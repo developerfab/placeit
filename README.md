@@ -1,24 +1,37 @@
-# README
+# Placeit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Example project to management a web site about movies
 
-Things you may want to cover:
+![database diagram](https://raw.githubusercontent.com/developerfab/placeit/master/analisys/database.jpg)
 
-* Ruby version
+## Requeriments
 
-* System dependencies
+* Postgresql
+* rvm or rbenv
 
-* Configuration
+## How to install and run project?
 
-* Database creation
+1. Install bundler gem
 
-* Database initialization
+```
+$ gem install bundler
+```
 
-* How to run the test suite
+2. Copy env.example file to .env file
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+$ cp env.example .env
+```
+Please add the database configuration in the new file
 
-* Deployment instructions
+3. Create database and run migrations
 
-* ...
+```
+$ rake db:create db:migrate
+```
+
+4. Run project
+
+```
+$ bin/rails s
+```
