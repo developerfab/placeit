@@ -1,0 +1,12 @@
+la_vida_es_bella:
+  name: 'La vida es bella'
+  description: 'Lorem ipsum dolor sit amet.'
+  image_url: 'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/vida-es-bella2-1535453128.jpg?crop=0.542xw:1.00xh;0.238xw,0&resize=980:*'
+  state: 'available'
+
+avatar:
+  name: 'Avatar'
+  description: 'Lorem ipsum dolor sit amet.'
+  image_url: 'https://rec-end.elnuevodia.com/images/tn/1090/0/3080/1730/900/789/2019/01/22/da000d42e6bd4b5cb15c6ac4f610dca3.jpg'
+  state: 'locked'
+
